@@ -429,7 +429,7 @@
             <!-- Bento Reihe 1: Header Karte -->
             <article class="glass-card col-span-3 header-card">
                 <div class="card-img-wrapper">
-                    <img src="investora-maga.webp" alt="Investora Event" class="card-img" onerror="this.src='https://images.unsplash.com/photo-1541887134265-fb1008cbbebf?q=80&w=1200&auto=format&fit=crop'">
+                    <img src="investora-maga.webp" alt="Investora Event Main" class="card-img" onerror="this.src='https://images.unsplash.com/photo-1541887134265-fb1008cbbebf?q=80&w=1200&auto=format&fit=crop'">
                     <div class="img-fade"></div>
                 </div>
                 <div class="card-content">
@@ -482,7 +482,8 @@
                     </p>
                 </div>
                 <div class="content-img-side">
-                    <img src="investora-info.webp" alt="Florian und Stefan Merzenich" onerror="this.src='https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=1200&auto=format&fit=crop'">
+                    <!-- Bild 2: flo_seminar.webp (16:9) -> Perfekt für die volle Höhe der Split-Card -->
+                    <img src="flo_seminar.webp" alt="Florian und Stefan Merzenich" onerror="this.src='https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=1200&auto=format&fit=crop'">
                 </div>
             </article>
 
@@ -492,7 +493,7 @@
                 <p class="card-text">Analysen und Automatisierung: So verdienen Profis heute Geld. Wir gehen tief in die Praxis. Du erfährst nicht nur das Was, sondern vor allem das Wie.</p>
                 
                 <div class="feature-list">
-                    <!-- Feature 1: KI Bot -->
+                    <!-- Feature 1: AI Bot -->
                     <div class="feature-item">
                         <div class="feature-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"></rect><circle cx="12" cy="5" r="2"></circle><path d="M12 7v4"></path><line x1="8" y1="16" x2="8" y2="16"></line><line x1="16" y1="16" x2="16" y2="16"></line></svg>
@@ -536,7 +537,12 @@
             </article>
 
             <!-- Bento Reihe 4b: Event Erlebnis -->
-            <article class="glass-card col-span-1 p-card">
+            <article class="glass-card col-span-1 p-card" style="justify-content: flex-start;">
+                <!-- Bild 3: pic2.webp (Quadratisch) -> Perfekt im schmalen Container oben -->
+                <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); width: 100%; aspect-ratio: 1/1; margin-bottom: 1.5rem; flex-shrink: 0;">
+                    <img src="pic2.webp" alt="Event Impression" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1515169067868-5387ec356754?q=80&w=400&auto=format&fit=crop'">
+                </div>
+
                 <h2 class="card-title-small">Das Event Erlebnis</h2>
                 <h3 class="card-subtitle" style="font-size: 1.1rem; margin-top:0;">Komfort & Networking</h3>
                 <p class="card-text" style="font-size: 0.95rem; margin-bottom: 1rem;">
@@ -573,11 +579,13 @@
                     </div>
                 </div>
                 <div class="content-img-side" style="background: transparent; border: none; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; height: auto;">
-                    <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); height: 220px;">
-                        <img src="location-building.webp" alt="iNovaParc Gebäude" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop'">
+                    <!-- Bild 4: klatsch.webp (4:3) -> Das CSS Aspect-Ratio erzwingt das perfekte 4:3 -->
+                    <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); width: 100%; aspect-ratio: 4/3;">
+                        <img src="klatsch.webp" alt="Event Impression" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop'">
                     </div>
-                    <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); height: 220px;">
-                        <img src="location-inside.webp" alt="Auditorium Innenansicht" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1416339442236-8ceb164046f8?q=80&w=600&auto=format&fit=crop'">
+                    <!-- Bild 5: tell.webp (4:3) -> Das CSS Aspect-Ratio erzwingt das perfekte 4:3 -->
+                    <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); width: 100%; aspect-ratio: 4/3;">
+                        <img src="tell.webp" alt="Event Impression" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1416339442236-8ceb164046f8?q=80&w=600&auto=format&fit=crop'">
                     </div>
                 </div>
             </article>
